@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a9df46, #c1f189);
+  color: #fff;
+  padding: 10% 20%;
+}
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.note-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#97ca37, #24410a);
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+}
+.pencil-icon {
+  margin: 0px 10px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.delete-icon {
+  position: absolute;
+  width: 30px;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
